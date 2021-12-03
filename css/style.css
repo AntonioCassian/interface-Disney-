@@ -1,0 +1,310 @@
+body{
+    background-color: #040714;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.cabecalho{
+    background-color: #040714;
+    display: flex;
+    justify-content: end;
+    height: 70px;
+}
+.cabecalho > .container{}
+.cabecalho> span{}
+.cabecalho > span > a{}
+.cabecalho > span > a > picture{}
+.cabecalho > span > a > picture > img{
+    width: 100px;
+    left: 65px;
+    padding: 10px;
+    margin-right: 835px;
+}
+
+.buttonUm{
+    background: rgb(0, 99, 299);
+    border: 1px solid rgb(0,99 299);
+    border-radius: 4px;
+    min-width: 135px;
+    margin: 8px;
+    text-align: center;
+    padding: 17px;
+    
+}
+.buttonUm > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 21px;
+}
+
+.buttonDois{
+    margin: 10px;
+    /*border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin: 8px 8px 8px 20px;
+    min-width: 135px;*/
+    
+}
+.buttonDois:hover{
+   background: #ffffff;
+}
+.buttonDois > a{
+    
+}
+.buttonDois > a > button{
+    border: transparent;
+    background: transparent;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+.buttonDois > a > button:hover{
+    color: black;
+    background-color: #ffffff;
+}
+
+
+/*PRIMEIRA SEÇÃO*/
+.secaoPrincipal{
+    background-image: url("../imagens/background.jpg");
+    background-repeat: no-repeat;
+    
+}
+.secaoPrincipal >.container{}
+
+.principal{
+    height: 800px;
+    max-width: 550px;
+    margin-left: 115px;
+}
+.titH1{
+    font-size: 28px;
+    color: silver;
+    line-height: 38px;
+    /*padding-top: 105px;*/
+    text-align: center;
+}
+
+.imagem_central{}
+.imagem_central > img{
+    width: 420px;
+    margin: 45px 0px 47px 63px;
+    height: 180px;
+}
+
+.lista{
+    text-align: center;
+}
+.item > button{
+    min-width: 550px;
+    padding: 25px;
+    font-size: 20px;
+    background: rgb(0, 99, 299);
+    color: #ffffff;
+    border: 1px solid rgb(0, 99, 299);
+    border-radius: 3px;
+}
+
+.item > .comentario{
+    color: silver;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 23px;
+        /* margin-bottom: 22px; */
+    padding: 12px;
+}
+
+
+.item > a{
+    text-decoration: revert;
+    color: silver;
+}
+.item > a > span{
+    font-size: 20px;
+}
+.item > p{
+    font-size: 18px;
+    color: silver;
+    padding-top: 5px;
+}
+
+/*AREA 2*/
+
+.secaoDois{
+     height: auto;
+}
+.secaoDois .container{}
+
+.secaoDois_objects{
+    display: flex;
+}
+
+.secaoDois_img{}
+.secaoDois_img > img{
+    width: 600px;
+    height: auto;
+}
+
+
+.text_area{
+    margin: 128px 0px 0px;
+}
+
+.text_area > h2{
+    font-size: 40px;
+    line-height: 70px;
+}
+.text_area > p{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/*SEÇÃO TRES*/
+.secaoTres{
+    height: 600px;
+    margin-bottom: 130px;
+}
+.secaoTres > .container{}
+
+.secaoTres_princi{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.secaoTres_objects{}
+.secaoTres_objects > img{
+    width: 600px;
+    
+}
+
+.text_container{
+    margin: 210px 0px;
+}
+.text_container > p{
+    font-size: 22px;
+    text-align: inherit;
+    padding: 0 0 25px;
+}
+.text_container > button{
+    color: #f9f9f9;
+    background: transparent;
+    background-color: rgb(0, 99, 299);
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 1px solid rgb(0, 99, 299);
+    
+}
+
+
+/*SECAO 4*/
+
+.secaoQuatro{
+    background-image: url(../imagens/img3.png);
+    position: relative;
+    box-sizing: border-box;
+    padding: 5.6vw;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 600px;
+    margin-left: 135px;
+    
+}
+.secaoQuatro > .container{}
+
+.alinhamento{
+    margin-top: 100px;
+    margin-left: 315px;
+    width: 500px;
+    text-align: justify;
+
+}
+
+.textArea{
+    width: 500px;
+    text-align: justify;
+    
+
+}
+.textArea > h2{
+    font-size: 28px;
+    line-height: 38px;
+}
+.textArea > p{
+    font-size: 18px;
+}
+
+/*SECAO CINCO*/
+
+.secaoCinco{}
+.secaoCinco_titulo{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.secaoCinco_lista{
+    display: flex;
+    justify-content: space-between;
+}
+.secaoCinco_item{
+    text-align: center;
+    
+}
+.secaoCinco_item > img{
+    width: 100%;
+}
+
+.title{
+    font-size: 30px;
+    line-height: 55px;
+}
+.title_text{
+    display: flex;
+    flex-direction: column;
+}
+.title_text > p{
+    line-height: 20px;
+    margin-bottom: 140px;
+}
+
+/*FOOTER*/
+.footer{}
+.footer_img{
+    text-align: center;
+    height: 80px;
+}
+.footer_img > picture{}
+.footer_img > picture > img{
+    width: 100px;
+}
+
+.footer_principal{
+    text-align: center;
+    display: block;
+    line-height: 40px;
+}
+.footer_principal > select{}
+.footer_principal >a{
+    text-decoration: none;
+    color: silver;
+    padding: 8px 12px;
+}
+
+.footer_principal> a:hover{
+    color: #f9f9f9;
+}
+
+.fim{
+    text-align: center;
+}
